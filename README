@@ -1,0 +1,68 @@
+AxKit/XSP/Blog
+==============
+
+What is it
+----------
+
+This is a rather _experimental_ package to syndicate several sources of weblogs,
+consolidate them into a database and use the database entries when displaying
+weblogs with AxKit.
+
+How to install
+--------------
+
+The basic installation is done via the usual incantation:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+Following files might be helpful (see below):
+
+   cp support/blog_tags.xps    /where/ever/your/stylesheets/are/
+   cp xslt/rss*                /where/ever/your/stylesheets/are/
+
+How to use
+----------
+
+The model used here includes:
+
+  (1) download weblog data from various sources and store the individule weblog entries in an DBI database
+  (2) use an AxKit XSP taglib to expand the weblog entries into an XSP page
+  (3) use the AxKit infrastructure to render the weblog-specific tags (into, say, HTML)
+
+For (1) you may find the following utilities helpful
+
+  - getblog
+
+    Provided with some parameters, it will download the blog from those sources which allow you to read
+    them via XML-RPC and will output it on STDOUT
+
+  - blog2dbi
+
+    Takes a blog on STDIN and saves it into a DBI database. Look at utilities/blogs.mysql for a DBI
+    schema definition.
+
+Blogs available from Userland.com, Blogger.com, .... can be imported like this
+
+  getblog.pl --Username='user' --Password='xxxxx' --Proxy='http://plant.blogger.com/api/RPC2' --blogname='my blog' | blog2dbi.pl --dsn="dbi:mysql:database=topicmaps;user=nobody;table=blogs" --blog_uid='http://whatever.blogspot.com/'
+
+Blogs which are only available as RSS (0.9, 0.91, 1.0 or 2.0) I have included rudimentary XSLT sheets
+which allow you to convert the RSS stream into a XBlog XML document:
+
+  GET http://radio.weblogs.com/01234567/rss.xml | xsltproc --param author_name "'First LastName'" --param author_email "'user@email.address'" ../xslt/rss2toblog.xslt - | blog2dbi.pl  --dsn="dbi:mysql:database=topicmaps;user=nobody;table=blogs" --blog_uid='http://radio.weblogs.com/01234567/'
+
+I have reengineered the samples collected in the samples directory for that. Patches WELCOME.
+
+For (2) please read the AxKit::XSP::Blog documentation.
+
+For (3) I have included my version of an XPathScript doing the rendering (see support/blog_tags.xps)
+
+Copyright
+---------
+
+Copyright 200[2] Robert Barta, rho@telecoma.net
+
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.

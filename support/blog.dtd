@@ -1,0 +1,16 @@
+<!ELEMENT xblog (head blog)>
+
+<!ELEMENT head  (title? url? description?)>
+
+<!ELEMENT blog  (day*)>
+
+<!ELEMENT day   (entry*)>
+<!ATTLIST day   date CDATA #REQUIRED>
+
+<!ELEMENT entry (title? status? postDate? lastModified? content author_name? author_email? url?>
+<!ATTLIST entry date CDATA #REQUIRED
+                id   CDATA>
+
+<!-- todo: move content -> PCDATA -->
+
+

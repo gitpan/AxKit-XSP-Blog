@@ -1,0 +1,12 @@
+CREATE TABLE blogs (
+  id int(11) NOT NULL auto_increment,
+  author varchar(128) default NULL,
+  author_email varchar(128) default NULL,
+  url varchar(255) default NULL,
+  title varchar(128) default NULL,
+  body text,
+  published datetime default NULL,
+  fetched timestamp(14) NOT NULL,
+  remote_id varchar(128) default NULL,
+  KEY id (id)
+);

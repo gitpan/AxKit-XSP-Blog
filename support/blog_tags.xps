@@ -1,0 +1,46 @@
+<%
+
+$t->{'b:title'}{pre}     = "<h2>";
+$t->{'b:title'}{post}    = "</h2>";
+
+$t->{'b:description'}{pre}  = "<blockquote>";
+$t->{'b:description'}{post} = "</blockquote>";
+
+$t->{'b:day'}{testcode}  = sub {
+    my $node = shift;
+    my $t    = shift;
+    $t->{pre}   = '<p class="topic">' . findvalue('./@date', $node) . '</p>';
+    $t->{post}  = '';
+    return 1;
+};
+
+$t->{'b:entry'}{testcode} = sub {
+    my $node = shift;
+    my $t    = shift;
+    $t->{pre}   = '<p>' . findvalue('./b:body', $node) . '<br/>';
+    my $author = findvalue('./b:author', $node);
+    my $email  = findvalue('./b:author_email', $node);
+    my $a;
+    if ($author && $email) {
+	$a = '<a href="mailto:' . $email . '">' . $author . '</a>';
+    } elsif ($email) {
+	$a = '<a href="mailto:' . $email . '">' . $email . '</a>';
+    } elsif ($author) {
+	$a = $author;
+    }
+    $t->{post}  = 'posted';
+    $t->{post} .= ' by ' . $a if $a;
+    my $time = findvalue('./@date', $node);
+    $t->{post} .= ' at ' . $time if $time;
+    $t->{post} .= ' &para;</p>';
+    return -1;
+};
+
+$t->{'b:head'}{testcode} = sub {
+    return 0;
+};
+
+$t->{'b:xblog'}{showtag} = 0;
+$t->{'b:blog'}{showtag}  = 0;
+
+%>

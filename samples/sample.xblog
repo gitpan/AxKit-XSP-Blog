@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xblog>
+  <head>
+    <title>rho test</title>
+  </head>
+  <blog>
+    <day date="Sun, September 29th">
+      <entry date="2002-09-29 15:37:59" id="82259449">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-29 15:37:59</postDate>
+        <lastModified>20020929T15:37:59</lastModified>
+        <content>Hey we are still here</content>
+        <dateCreated>20020929T15:37:59</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+    </day>
+    <day date="Sat, September 28th">
+      <entry date="2002-09-28 14:09:21" id="82220966">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-28 14:09:21</postDate>
+        <lastModified>20020928T14:09:21</lastModified>
+        <content>A new test post
+
+Lines are not kept, should we
+format  it?</content>
+        <dateCreated>20020928T14:09:21</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+    </day>
+    <day date="Mon, September 23rd">
+      <entry date="2002-09-23 21:10:26" id="81987044">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-23 21:10:26</postDate>
+        <lastModified>20020923T22:34:24</lastModified>
+        <content>&lt;h1&gt;title or not&lt;/h1&gt;
+
+rumsti ramsti romsti
+&lt;p&gt;
+pah die Leit, die ka &lt;a href=&quot;http://sdflksfsd&quot;&gt;HTML kenna</content>
+        <dateCreated>20020923T21:10:26</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+    </day>
+    <day date="Sun, September 22nd">
+      <entry date="2002-09-22 18:38:05" id="81943141">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-22 18:38:05</postDate>
+        <lastModified>20020922T18:38:05</lastModified>
+        <content>xxxx</content>
+        <dateCreated>20020922T18:38:05</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+      <entry date="2002-09-22 18:02:19" id="81942372">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-22 18:02:19</postDate>
+        <lastModified>20020922T18:05:52</lastModified>
+        <content>rumsti ramsti
+
+sdklsdfj sdflksfsdfkls fsflsfkls skldf sladk sdkl fsdklf dl;sksd;sd
+sdfsdfd ddf &lt;p&gt;sdskssdf
+&lt;a href=&quot;xxxxx&quot;&gt; sdlkfjsjfs sfslf sklf s&lt;/a&gt;
+sdfkskljskljf</content>
+        <dateCreated>20020922T18:02:19</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+      <entry date="2002-09-22 08:05:41" id="81925435">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-22 08:05:41</postDate>
+        <lastModified>20020922T12:29:22</lastModified>
+        <content>will this be the title?
+
+sdfsfs sklfsfsfsfs sfsfs
+</content>
+        <dateCreated>20020922T08:05:41</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+      <entry date="2002-09-22 07:58:36" id="81925224">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-22 07:58:36</postDate>
+        <lastModified>20020922T07:58:36</lastModified>
+        <content>and yet another</content>
+        <dateCreated>20020922T07:58:36</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+      <entry date="2002-09-22 07:48:17" id="81924873">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-22 07:48:17</postDate>
+        <lastModified>20020922T07:48:17</lastModified>
+        <content>and a third one</content>
+        <dateCreated>20020922T07:48:17</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+    </day>
+    <day date="Sat, September 21st">
+      <entry date="2002-09-21 23:50:29" id="81911404">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-21 23:50:29</postDate>
+        <lastModified>20020921T23:50:29</lastModified>
+        <content>rumstimausi</content>
+        <dateCreated>20020921T23:50:29</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+      <entry date="2002-09-21 23:27:58" id="81911053">
+        <title/>
+        <status>1</status>
+        <postDate>2002-09-21 23:27:58</postDate>
+        <lastModified>20020922T07:48:03</lastModified>
+        <content>and a second post</content>
+        <dateCreated>20020921T23:27:58</dateCreated>
+        <authorName>Robert Barta</authorName>
+      </entry>
+    </day>
+  </blog>
+</xblog>

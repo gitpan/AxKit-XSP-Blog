@@ -1,0 +1,6 @@
+Revision history for Perl extension AxKit::XSP::Blog.
+
+0.01  Mon Sep 30 10:47:53 2002
+	- original version; created by h2xs 1.21 with options
+		-X -n AxKit::XSP::Blog
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://slashcode.com/rss/1.0/modules/Slash/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+>
+
+<channel rdf:about="http://use.perl.org/">
+<title>use Perl</title>
+<link>http://use.perl.org/</link>
+<description>All the Perl that's Practical to Extract and Report</description>
+<dc:language>en-us</dc:language>
+<dc:rights>use Perl; is Copyright 1997-2002, Chris Nandor. Stories, comments, journals, and other submissions posted on use Perl; are Copyright their respective owners.</dc:rights>
+<dc:date>2002-09-30T01:43:02+00:00</dc:date>
+<dc:publisher>pudge</dc:publisher>
+<dc:creator>pudge@perl.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/25/129231" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/23/2041201" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/23/125230" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/22/1312225" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/19/1443213" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/17/189201" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/17/121210" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/16/2026255" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/16/1448246" />
+  <rdf:li rdf:resource="http://use.perl.org/article.pl?sid=02/09/16/1243234" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://use.perl.org/images/topics/useperl.gif" />
+<textinput rdf:resource="http://use.perl.org/search.pl" />
+</channel>
+
+<image rdf:about="http://use.perl.org/images/topics/useperl.gif">
+<title>use Perl</title>
+<url>http://use.perl.org/images/topics/useperl.gif</url>
+<link>http://use.perl.org/</link>
+</image>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/25/129231">
+<title>Using Web Services with Perl and AppleScript</title>
+<link>http://use.perl.org/article.pl?sid=02/09/25/129231</link>
+<description>jonasbn writes "An article on Perl, AppleScript, and Web Services by Randal L. Schwartz has been published on O'ReillyNet." See AppleScript and Perl work together!</description>
+<dc:creator>pudge</dc:creator>
+<dc:subject>links</dc:subject>
+<dc:date>2002-09-25T12:12:46+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>13</slash:comments>
+<slash:hitparade>13,13,13,6,1,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/23/2041201">
+<title>The Great Perl Monger Cull Of 2002</title>
+<link>http://use.perl.org/article.pl?sid=02/09/23/2041201</link>
+<description>davorg writes "If you take a look at list of local groups on the Perl Mongers web site, you'll see that it's just got a good deal shorter. Over the last month or so, I've been making strenuous efforts to contact all of the groups we had listed to see ...</description>
+<dc:creator>ziggy</dc:creator>
+<dc:subject>news</dc:subject>
+<dc:date>2002-09-23T20:38:48+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>13</slash:comments>
+<slash:hitparade>13,13,13,10,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/23/125230">
+<title>This Week on perl5-porters (16-22 September 2002)</title>
+<link>http://use.perl.org/article.pl?sid=02/09/23/125230</link>
+<description>That's on a week like this that you realize that lots of porters are European (and managed to free themselves for YAPC::Europe.) Or were they, on the contrary, too busy in the big blue room ? On the other hand, the number of bug reports stayed at its ...</description>
+<dc:creator>rafael</dc:creator>
+<dc:subject>summaries</dc:subject>
+<dc:date>2002-09-23T11:58:15+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>1</slash:comments>
+<slash:hitparade>1,1,1,1,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/22/1312225">
+<title>YAPC 2003 Call For Venues</title>
+<link>http://use.perl.org/article.pl?sid=02/09/22/1312225</link>
+<description>Yet Another Society/The Perl Foundation is making a call for venues for the 2003 YAPC::America. Don't forget to check the venue requirements, the YAPC::Venue module on CPAN, and talk to the organizers of YAPCs past. The Perl Foundation aims to announce ...</description>
+<dc:creator>KM</dc:creator>
+<dc:subject>news</dc:subject>
+<dc:date>2002-09-22T13:08:56+00:00</dc:date>
+<slash:section>yapc</slash:section>
+<slash:comments>3</slash:comments>
+<slash:hitparade>3,3,3,3,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/19/1443213">
+<title>PerlQT 3 Released</title>
+<link>http://use.perl.org/article.pl?sid=02/09/19/1443213</link>
+<description>Dom2 writes "As seen on the dot, a new version of PerlQT is out! Apparently sporting a perl version of uic for developing ui's from XML. A tutorial is available for those wanting to know more details."</description>
+<dc:creator>ziggy</dc:creator>
+<dc:subject>tools</dc:subject>
+<dc:date>2002-09-19T14:41:03+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>8</slash:comments>
+<slash:hitparade>8,8,8,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/17/189201">
+<title>How much does Perl, PHP, Java, or Lisp suck?</title>
+<link>http://use.perl.org/article.pl?sid=02/09/17/189201</link>
+<description>brian_d_foy writes "A long time ago Don Marti started the OS Sucks-Rules-O-Meter, and Jon Orwant wrote his own Sucks-Rules-O-Meter for computer languages. Recently Dan Brian improved on that with a little bit of natural language processing. Now The Perl ...</description>
+<dc:creator>pudge</dc:creator>
+<dc:subject>links</dc:subject>
+<dc:date>2002-09-18T12:08:19+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>17</slash:comments>
+<slash:hitparade>17,17,17,4,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/17/121210">
+<title>Subscribe to The Perl Review</title>
+<link>http://use.perl.org/article.pl?sid=02/09/17/121210</link>
+<description>barryp writes "You can now pledge a subscription to The Perl Review. The plan is to produce four print magazines per year. Cost: $12/year (US); $20/year (international). Let's all make this happen by signing up!" The web site says that they'll attempt to ...</description>
+<dc:creator>pudge</dc:creator>
+<dc:subject>links</dc:subject>
+<dc:date>2002-09-17T12:00:45+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>6</slash:comments>
+<slash:hitparade>6,6,6,1,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/16/2026255">
+<title>This Week on perl5-porters (9-15 September 2002)</title>
+<link>http://use.perl.org/article.pl?sid=02/09/16/2026255</link>
+<description>This was not a very busy week, with people packing for YAPC::Europe, and all that... Nevertheless, the smoke tests were running, the bug reports were flying, and an appropriate amount of patches were sent. Read about printf formats, serialized tied ...</description>
+<dc:creator>rafael</dc:creator>
+<dc:subject>summaries</dc:subject>
+<dc:date>2002-09-16T20:17:44+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>0</slash:comments>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/16/1448246">
+<title>Java vs. Perl</title>
+<link>http://use.perl.org/article.pl?sid=02/09/16/1448246</link>
+<description>It seems the older Perl gets, the more willing people are to believe that it sucks, without any reasonable facts. davorg writes "You may have seen the article Can Java technology beat Perl on its home turf with pattern matching in large files? that there ...</description>
+<dc:creator>pudge</dc:creator>
+<dc:subject>java</dc:subject>
+<dc:date>2002-09-16T15:15:16+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>34</slash:comments>
+<slash:hitparade>34,34,34,6,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://use.perl.org/article.pl?sid=02/09/16/1243234">
+<title>New Perl Mongers Web Site</title>
+<link>http://use.perl.org/article.pl?sid=02/09/16/1243234</link>
+<description>davorg writes "Leon Brocard has been working hard to update the Perl Mongers web site. We're still going thru the process of cleaning up the data about the Perl Monger groups, so if you see something that isn't quite right then please let us know."</description>
+<dc:creator>KM</dc:creator>
+<dc:subject>groups</dc:subject>
+<dc:date>2002-09-16T12:41:10+00:00</dc:date>
+<slash:section>articles</slash:section>
+<slash:comments>0</slash:comments>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<textinput rdf:about="http://use.perl.org/search.pl">
+<title>Search use Perl</title>
+<description>Search use Perl stories</description>
+<name>query</name>
+<link>http://use.perl.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+
+<channel>
+<title>Slashdot</title>
+<link>http://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+</channel>
+
+<image>
+<title>Slashdot</title>
+<url>http://images.slashdot.org/topics/topicslashdot.gif</url>
+<link>http://slashdot.org/</link>
+</image>
+
+<item>
+<title>Itanium Problems</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1752204</link>
+</item>
+
+<item>
+<title>When Do You Really Need a Lawyer?</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/0210249</link>
+</item>
+
+<item>
+<title>OSI Approves Two New Licenses</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1627231</link>
+</item>
+
+<item>
+<title>Abrupt Climatic Change Coming Soon?</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/0035213</link>
+</item>
+
+<item>
+<title>Mouse Scans Palms to Verify ID</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1517240</link>
+</item>
+
+<item>
+<title>Game Industry goes from Geek to Chic</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1522250</link>
+</item>
+
+<item>
+<title>Help wanted: CTO at Warner Music.</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1457230</link>
+</item>
+
+<item>
+<title>Linux Kernel 3.0?</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1413239</link>
+</item>
+
+<item>
+<title>iPod on Linux... with GPLed software</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1311204</link>
+</item>
+
+<item>
+<title>Systemax to Offer 'Hot-Rod' PC</title>
+<link>http://slashdot.org/article.pl?sid=02/09/29/1248253</link>
+</item>
+
+<textinput>
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://slashdot.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>
